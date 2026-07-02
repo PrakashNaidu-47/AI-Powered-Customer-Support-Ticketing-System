@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Agentforce Studio</label>
+    <navType>Console</navType>
+    <tabs>standard-AgentforceStudio</tabs>
+    <tabs>AI_Feedback__c</tabs>
+    <tabs>SLA_Policy__c</tabs>
+    <tabs>Support_Category__c</tabs>
+    <uiType>Lightning</uiType>
+    <workspaceConfig>
+        <mappings>
+            <tab>AI_Feedback__c</tab>
+        </mappings>
+        <mappings>
+            <tab>SLA_Policy__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Support_Category__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-AgentforceStudio</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
